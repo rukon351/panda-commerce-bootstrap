@@ -9,6 +9,8 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -42,18 +44,20 @@
                 </div>
             </div>
         </nav>
-        <!--slide start-->
+
+        <!--image slide carousel-->
+
         <section class="container">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
                                     front of funky world.</p>
                                 <h1>$420</h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
                             </div>
@@ -63,13 +67,13 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>This is the best tv in the world for people who just want to waste time in
                                     front of tv.</p>
                                 <h1>$420</h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
                             </div>
@@ -79,13 +83,13 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>X-Box for your living room</h1>
                                 <p>This is the best x-box in the world for people who just want to waste time in front
                                     of fake sports.</p>
                                 <h1>$600</h1>
-                                <button class="btn btn-warning">
+                                <button class="panda-btn-buy-now">
                                     Buy Now
                                 </button>
                             </div>
@@ -101,7 +105,7 @@
     <main>
         <!-- categories -->
 
-        <div class="container my-5">
+        <section class="container my-5 categories">
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
@@ -134,7 +138,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- shoes section -->
 
@@ -146,12 +150,12 @@
                         <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
-                            <h5>80</h5>
+                            <h5>$80</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -165,7 +169,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -179,7 +183,7 @@
                                 additional.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -201,7 +205,7 @@
                                 additional.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -215,7 +219,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -229,7 +233,7 @@
                                 additional.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -239,13 +243,13 @@
         <!-- subscribe -->
 
         <section style="height: 300px;" id="subcribe"
-            class="container bg-info d-flex justify-content-center align-items-center rounded-3">
+            class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
-                <input type="text" placeholder="Your Email">
+                <input class="form-control" type="text" placeholder="Your Email">
                 <br>
-                <button class="btn btn-warning mt-3">SUBMIT</button>
+                <button class="panda-btn-buy-now mt-3">SUBMIT</button>
             </div>
         </section>
     </main>
